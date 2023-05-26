@@ -1,0 +1,134 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Agrega tu estilo de botón favorito de la asignación Button y nómbrala .btn */
+  .btn{
+    width: 150px; 
+    border: 2px solid black;
+    background-color: rgba(10, 146, 224, 0.925);
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 8px 5px 1px black;
+    
+ }
+
+ /*Agrega las clases .row y .col de la asignación Columnas flex-ibles*/
+
+ .row {
+  display: flex;
+}
+
+.col{
+  margin: 10px;
+  padding: 10px;
+  background-color: cadetblue;
+  flex: 1;
+}
+
+/*Añade la(s) clase(s) .navbar de la asignación barra de navegación con Flex*/
+.nav {
+  background-color: #333333;
+  color: #ffffff;
+  height: 80px;
+  width: 1000px; /* for styling purposes */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  width: 50%;
+  list-style-type: none;
+  align-items: center;
+}
+.nav-links a {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+.container.main, .card-body {
+  align-items: flex-start;
+  
+}
+.container.main {
+  position: relative;
+  
+}
+.card-title {
+  display: flex;
+  flex: 4;
+}
+
+.col {
+  padding: 20px;
+  margin: 10px;
+  background-color:gainsboro; ;
+  border: 1px solid gainsboro;
+  align-items: center;
+  text-align: center;
+
+}
+.sub-col {
+ margin-bottom: 20px;
+ flex-direction: column;   
+}
+img{
+  width: 100px;
+  border-radius: 50%;
+}
+.grados {
+  display: flex;
+  flex: 1;
+  flex-direction: row;   
+  justify-content: space-between;
+}
+.card-cookies {
+  background-color: gainsboro;
+  border: 2px solid black;
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;   
+  justify-content: center;
+  align-items: center;
+  position: fixed; /*Usa position: fixed; para posicionar el mensaje de política de cookies en la parte inferior de la página */
+  bottom: 0; /*Usa position: fixed; para posicionar el mensaje de política de cookies en la parte inferior de la página */
+  left: 0; /*Usa position: fixed; para posicionar el mensaje de política de cookies en la parte inferior de la página */
+  width: 100%;
+}
+.ocultar{
+  display: none;
+}
+/* Styles for position */
+.heading{
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  /*left: 20px;*/
+}
+
+/* nav con flex*/
+.nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(57, 57, 57);
+}
+
+.nav-links2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
